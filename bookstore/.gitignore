@@ -1,0 +1,60 @@
+# Project specific sensitive directories
+Kindergarten_db/
+zitadel-machinekey/
+
+# Gradle specific
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Documentation
+HELP.md
+
+# IDE - IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IDE - STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# IDE - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# IDE - VS Code
+.vscode/
+
+# Secrets and configurations
+*.properties
+application.yml
+application-*.yml
+**/resources/application.yml
+**/resources/application-*.yml
+**/resources/application.properties
+**/resources/application-*.properties
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store

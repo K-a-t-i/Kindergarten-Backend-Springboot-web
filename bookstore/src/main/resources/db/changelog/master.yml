@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      relativeToChangelogFile: true
+      file: initial.sql
+  - include:
+      relativeToChangelogFile: true
+      file: v0.0.1-add_course_table.sql
